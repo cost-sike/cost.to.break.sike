@@ -2,7 +2,8 @@
 # Paper "The Cost to Break SIKE: A Comparative Hardware-Based Analysis with AES and SHA-3"
 
 
-Targeted primitives: SIKE, AES and SHA-3
-Technology used by the hardware implementations used in the model: NanGate 45nm open-cell library
+Targeted primitives: SIKE, AES and SHA-3.
 
-Run the Python script to produce all the figures and security estimates in the paper. 
+Technology used by the hardware implementations used in the model: NanGate 45nm open-cell library.
+
+Run this Python script to produce all the figures and security estimates included in the paper. 
