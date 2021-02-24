@@ -1,0 +1,19 @@
+function: 
+1: 
+adding two values from range [0, 2*p] and correct the result to range [0, 2*p]
+inputs: 
+a, b from range [0, 2*p]
+computation: 
+if (a + b) > 2*p, c = (a + b) - 2*p
+else: c = (a + b)
+output: c, in range [0, 2*p]
+
+2: 
+subtracting two values from range [0, 2*p] and correct the result to range [0, 2*p]
+inputs: 
+a, b from range [0, 2*p]
+computation: 
+if (a - b) < 0, c = (a - b) + 2*p
+else: c = (a - b)
+output: c, in range [0, 2*p]
+ 
