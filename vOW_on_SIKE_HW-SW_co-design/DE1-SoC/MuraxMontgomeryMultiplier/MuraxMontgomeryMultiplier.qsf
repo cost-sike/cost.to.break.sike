@@ -1,0 +1,19 @@
+# main definitions
+source common.qsf
+
+set_global_assignment -name TOP_LEVEL_ENTITY MuraxMontgomeryMultiplier
+
+# HDL source code files
+set_global_assignment -name VERILOG_FILE ../../src/hardware/util/clog2.v
+set_global_assignment -name VERILOG_FILE MuraxMontgomeryMultiplier.v
+set_global_assignment -name VERILOG_FILE ../rtl/BlockRam.v
+set_global_assignment -name VERILOG_FILE ../rtl/Apb3MontgomeryMultiplier_RADIX_32.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/util/delay.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/util/single_port_mem.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/Montgomery_multiplier_one_cycle_pipeline/Montgomery_multiplier_sub.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/Montgomery_multiplier_one_cycle_pipeline/Montgomery_multiplier_add.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/Montgomery_multiplier_two_cycle_pipeline/step_sub.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/Montgomery_multiplier_two_cycle_pipeline/step_add.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/Montgomery_multiplier_two_cycle_pipeline/multiplier.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/fp_sub_and_add/fp_adder.v
+set_global_assignment -name VERILOG_FILE ../../src/hardware/fp_sub_and_add/unit_adder.v
