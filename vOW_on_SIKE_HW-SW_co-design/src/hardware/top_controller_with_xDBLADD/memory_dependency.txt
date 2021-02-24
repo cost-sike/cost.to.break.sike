@@ -1,0 +1,42 @@
+add | X4 | Z4
+add | mul | X4 | Z4 | t4 | t5
+add | mul
+add | mul | A24 | C24 | t4 | t5 | t7 | t8 | t9 
+
+add | X4 | Z4
+add | mul | t7 | t8
+mul | t4 | t5
+add | mul | t9 | t4
+add | mul | t4 | t5
+add | mul
+add | mul | t4 | t5 | t6
+add | mul | t5 | t6
+mul | t10 | t11
+
+add | X | Z
+add | mul 
+add | mul | t4 | t5
+add | mul | A24 | C24 | t5
+add | mul | t5
+add | mul | t4 | t5
+
+add | XP | ZP
+add | t4 | t5
+add | XQ | ZQ
+add | mul | t4 | t5
+mul | t4 | t5 | t6 | t7
+add | mul | t4 | t5 | t6 | t7
+add | mul | A24 | t4 | t5 | t8 | t9
+add | mul | t4 | t5 | t6 | t7 | t10
+add | mul | t9
+mul | t4 | t5
+add | mul | xPQ | t5 | t8
+mul | t5
+mul | zPQ | t4
+mul | XP | ZP | XQ | ZQ | t5 | t10
+
+
+| add | mul | A24 | C24 | t4  | t5  | t6  | t7  | t8 | t9  | t10 | t11
+            | X4  | Z4  | XQ  |           | ZQ  |  
+            | X   | Z   | xPQ |           | zPQ |  
+            | XP  | ZP  | 
